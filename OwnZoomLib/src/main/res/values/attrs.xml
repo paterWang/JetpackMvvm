@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OwnZoomView">
+        <attr name="ozv_sensitive" format="float" />
+        <attr name="ozv_isZoomEnable" format="boolean"/>
+        <attr name="ozv_isParallax" format="boolean"/>
+        <attr name="ozv_ZoomTime" format="integer"/>
+    </declare-styleable>
+</resources>

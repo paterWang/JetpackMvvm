@@ -1,2 +1,3 @@
+include ':OwnZoomLib'
 include ':app'
 rootProject.name='JetpackMvvm'
