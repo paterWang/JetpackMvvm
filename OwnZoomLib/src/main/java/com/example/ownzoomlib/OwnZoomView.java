@@ -203,7 +203,7 @@ public class OwnZoomView extends ScrollView {
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
-        if (isZoomEnable) return super.onTouchEvent(ev);
+        if (!isZoomEnable) return super.onTouchEvent(ev);
         float currentX = ev.getX();
         float currentY = ev.getY();
         switch (ev.getActionMasked()) {
